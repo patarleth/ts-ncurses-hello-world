@@ -15,6 +15,6 @@ npm start
 ## what the demo does
 
 ```click on the screen
-press &lt;enter&gt;
-&lt;esc&gt; to exit
+press <enter>
+<esc> to exit
 ```
