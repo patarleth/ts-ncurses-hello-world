@@ -21,9 +21,11 @@
     "posttest": "npm run check"
   },
   "devDependencies": {
+    "@types/blessed": "^0.1.10",
     "@types/node": "^10.12.18",
     "blessed": "^0.1.81",
     "gts": "^0.9.0",
     "typescript": "^3.2.2"
-  }
+  },
+  "dependencies": {}
 }
