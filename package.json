@@ -1,0 +1,29 @@
+{
+  "name": "",
+  "version": "0.0.0",
+  "description": "",
+  "main": "build/src/hello.js",
+  "types": "build/src/hello.d.ts",
+  "files": [
+    "build/src"
+  ],
+  "license": "Apache-2.0",
+  "keywords": [],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node build/src/hello.js",
+    "check": "gts check",
+    "clean": "gts clean",
+    "compile": "tsc -p .",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run check"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "blessed": "^0.1.81",
+    "gts": "^0.9.0",
+    "typescript": "^3.2.2"
+  }
+}
